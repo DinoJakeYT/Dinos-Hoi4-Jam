@@ -1,0 +1,154 @@
+ideologies = {
+    democracy_new_mod = {
+        types = {
+            world_mod_new_ideology_1_type = {
+            }
+            world_mod_new_ideology_1_type_2 = {
+            }
+            world_mod_new_ideology_1_type_3 = {
+            }
+            world_mod_new_ideology_1_type_4 = {
+            }
+            democracy_new_mod_type_5 = {
+            }
+            democracy_new_mod_type_6 = {
+            }
+        }
+        color = { 0 20 117 }
+        war_impact_on_world_tension = 2
+        faction_impact_on_world_tension = 2
+        can_host_government_in_exile = yes
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+        modifiers = {
+            political_power_gain = 0.10
+        }
+    }
+    fascism_new_mod = {
+        types = {
+            fascism_new_mod_type_1 = {
+            }
+            fascism_new_mod_type_2 = {
+            }
+            fascism_new_mod_type_3 = {
+            }
+            fascism_new_mod_type_4 = {
+            }
+            fascism_new_mod_type_5 = {
+            }
+        }
+        color = { 0 0 0 }
+        war_impact_on_world_tension = 5
+        faction_impact_on_world_tension = 1
+        can_collaborate = yes
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+        modifiers = {
+            army_attack_factor = 1.0
+        }
+    }
+    communism_new_mod = {
+        types = {
+            world_mod_new_ideology_3_type = {
+            }
+            communism_new_mod_type_2 = {
+            }
+            communism_new_mod_type_3 = {
+            }
+            communism_new_mod_type_4 = {
+            }
+            communism_new_mod_type_5 = {
+            }
+            communism_new_mod_type_6 = {
+            }
+            communism_new_mod_type_7 = {
+            }
+            communism_new_mod_type_8 = {
+            }
+        }
+        color = { 84 2 2 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 5
+        can_collaborate = yes
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+    }
+    authoritarian_new_mod = {
+        types = {
+            world_mod_new_ideology_4_type = {
+            }
+            authoritarian_new_mod_type_2 = {
+            }
+            authoritarian_new_mod_type_3 = {
+            }
+            authoritarian_new_mod_type_4 = {
+            }
+            authoritarian_new_mod_type_5 = {
+            }
+            authoritarian_new_mod_type_6 = {
+            }
+            authoritarian_new_mod_type_7 = {
+            }
+        }
+        color = { 255 255 255 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        can_collaborate = yes
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+    }
+    tribal_new_mod = {
+        types = {
+            world_mod_new_ideology_5_type = {
+            }
+            tribal_new_mod_type_2 = {
+            }
+            tribal_new_mod_type_3 = {
+            }
+            tribal_new_mod_type_4 = {
+            }
+            tribal_new_mod_type_5 = {
+            }
+            tribal_new_mod_type_6 = {
+            }
+        }
+        color = { 100 237 150 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        can_collaborate = yes
+        rules = {
+            can_force_government = no
+            can_send_volunteers = no
+            can_puppet = yes
+        }
+    }
+    monarchy_new_mod = {
+        types = {
+            world_mod_new_ideology_6_type = {
+            }
+            monarchy_new_mod_type_2 = {
+            }
+        }
+        color = { 48 3 77 }
+        war_impact_on_world_tension = 1
+        faction_impact_on_world_tension = 1
+        can_collaborate = yes
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+    }
+}

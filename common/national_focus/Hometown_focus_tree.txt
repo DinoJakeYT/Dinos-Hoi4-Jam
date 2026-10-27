@@ -1,0 +1,44 @@
+focus_tree = {
+    id = Hometown_focus_tree
+    default = no
+    country = {
+        factor = 0
+        modifier = {
+            add = 1000
+            tag = HOM
+        }
+    }
+
+    focus = {
+        id = world_mod_new_Hometown_focus_tree_focus_mantain
+        icon = GFX_focus_BEL_koningshooikt_wavre_line
+        x = 0
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = world_mod_new_Hometown_focus_tree_focus_Radical }
+        completion_reward = {
+            add_political_power = 100
+            add_stability = .10
+            add_ideas = Hometown_steady_spirit
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = world_mod_new_Hometown_focus_tree_focus_Radical
+        icon = GFX_focus_AST_stephensen
+        x = 2
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = world_mod_new_Hometown_focus_tree_focus_mantain }
+        will_lead_to_war = yes
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

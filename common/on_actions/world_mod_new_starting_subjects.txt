@@ -1,0 +1,83 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            BRL = {
+                set_autonomy = {
+                    target = BRP
+                    autonomy_state = autonomy_colony
+                    freedom_level = 0
+                }
+            }
+            ENT = {
+                set_autonomy = {
+                    target = LAS
+                    autonomy_state = autonomy_personal_union
+                    freedom_level = 0.5
+                }
+            }
+            HOM = {
+                set_autonomy = {
+                    target = HAU
+                    autonomy_state = autonomy_colony
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = HCR
+                    autonomy_state = autonomy_colony
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = NHO
+                    autonomy_state = autonomy_integrated_puppet
+                    freedom_level = 0.1
+                }
+            }
+            JAH = {
+                set_autonomy = {
+                    target = MAM
+                    autonomy_state = autonomy_personal_union
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = SYJ
+                    autonomy_state = autonomy_personal_union
+                    freedom_level = 0
+                }
+            }
+            SHE = {
+                set_autonomy = {
+                    target = SEI
+                    autonomy_state = autonomy_colony
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = SHM
+                    autonomy_state = autonomy_colony
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = SNS
+                    autonomy_state = autonomy_colony
+                    freedom_level = 0
+                }
+            }
+            VOK = {
+                set_autonomy = {
+                    target = ECH
+                    autonomy_state = autonomy_dominion
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = MAJ
+                    autonomy_state = autonomy_supervised_state
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = WEI
+                    autonomy_state = autonomy_integrated_puppet
+                    freedom_level = 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+ideas = {
+    country = {
+        Hometown_steady_spirit = {
+            picture = battlefield_air_interdiction_spirit
+            allowed = {
+                always = yes
+            }
+            modifier = {
+                stability_weekly_factor = 0.10
+            }
+        }
+    }
+}
