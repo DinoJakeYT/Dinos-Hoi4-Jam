@@ -1,0 +1,23 @@
+capital = 2
+oob = "ENT_2022"
+set_research_slots = 3
+set_convoys = 200
+set_stability = 0.2
+set_war_support = 0.4
+set_politics = {
+    ruling_party = monarchy_new_mod
+    last_election = "2022.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    democracy_new_mod = 0
+    fascism_new_mod = 30
+    communism_new_mod = 20
+    authoritarian_new_mod = 0
+    tribal_new_mod = 0
+    monarchy_new_mod = 50
+}
+
+# Additional starting history effects
+set_oob = ENT_2022

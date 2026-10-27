@@ -1,0 +1,23 @@
+capital = 881
+oob = "MAJ_2022"
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.7
+set_war_support = 0.5
+set_politics = {
+    ruling_party = communism_new_mod
+    last_election = "2022.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    democracy_new_mod = 20
+    fascism_new_mod = 0
+    communism_new_mod = 65
+    authoritarian_new_mod = 15
+    tribal_new_mod = 0
+    monarchy_new_mod = 0
+}
+
+# Additional starting history effects
+set_oob = MAJ_2022
